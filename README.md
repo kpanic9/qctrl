@@ -24,4 +24,16 @@ terraform apply qctrl.plan
 ```bash
 terraform destroy
 ```   
+   
 
+## TODO    
+    
+1. Properly tag the resources
+2. Configure scaling policies for adapting to the load
+3. Writing the terraform code in a reusable modular manner by braking down into modules like network, sg, application at least
+4. Setup a dns name for web site
+5. Configure a ssl certificate
+6. Enable log collection and monitoring through CloudWatch
+7. Setup remote backend for storing terraform state
+8. Use a different repo for web site and setup CI/CD for deployments
+      
